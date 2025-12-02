@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: angotv-web
+    env: docker
+    repo: https://github.com/durklane/angotv
+    plan: free
+    branch: main
+    buildCommand: flutter build web
+    startCommand: cd build/web && python3 -m http.server 8080
+    dockerfilePath: Dockerfile
