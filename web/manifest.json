@@ -1,0 +1,8 @@
+{
+  "name": "AngoTV Web",
+  "short_name": "AngoTV",
+  "start_url": "/angotv/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
